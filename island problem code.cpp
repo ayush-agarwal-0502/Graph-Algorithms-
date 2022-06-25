@@ -2,7 +2,7 @@
 // Name - Ayush Agarwal 
 // IIT BHU ECE 
 
-// islands are 1 and water is 0 
+// land is 1 and water is 0 
 // diagonal is acceptable for island 
 
 // including the libraries
