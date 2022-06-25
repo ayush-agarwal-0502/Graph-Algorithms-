@@ -1,5 +1,7 @@
 # Graph-Algorithms-
-C++ implementation of Graph algorithms such as BFS (iterative and recursive) , DFS (iterative and recursive) , Grid Graph PathFinder algorithm )BFS Implementation ) , Dijkstra Algorithm , as well as classes for weighted and unweighted graphs all explained 
+C++ implementation of Graph algorithms such as BFS (iterative and recursive) , DFS (iterative and recursive) , Grid Graph PathFinder algorithm )BFS Implementation ) , Dijkstra Algorithm , as well as classes for weighted and unweighted graphs all explained . 
+
+Also included code for island problem , where a map (matrix) is given with 0 representing water and 1 representing land , and we are required to find islands (groups of 1s together ) , precisely speaking we are required to find number of islands , size of each island and the size of the biggest island on the given map(matrix) . Could be useful to make a blob counting algorithm for a binary image , or , I just realised I could apply K mean clustering on the colours present in a coloured image , and then they will be like 0 , 1 , 2 ... in the island problem , and then I can run island finder for each value of colour range (like changing if A[i][j]==2 then 1 then 0 etc ) , then we can find the number of objects of different colours , say we have different colour balls on the floor (assuming they are not touching each other in the picture )(say red blur yellow) the we apply k means with k=4 then discard the floor part and count the 1st cluster's islands , 2nd cluster's islands ... and then we would have number of balls of each colour in the image , maybe something like this can be used to make a blob counter , just guessing didnt read anywhere .
 
 ## Motivation - 
 
@@ -28,6 +30,8 @@ Classes and their methods :
   * void print_weighted_graph();
   * void dijkstra(int src);
  
+ Function :
+ int islandfinder(vector<vector<int> > &A)
  
 
 
