@@ -31,7 +31,7 @@ Classes and their methods :
   * void dijkstra(int src);
  
  Function :
- int islandfinder(vector<vector<int> > &A)
+ int islandfinder(vector<vector < int > > &A)
  
 
 
